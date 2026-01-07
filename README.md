@@ -1,6 +1,6 @@
 # Stroke Prediction Dataset – Exploratory Data Analysis
 
-## 1. Description del proyecto:
+## 1. Descripción del proyecto:
 El ictus es una enfermedad cerebrovascular y es actualmente la segunda causa de mortalidad a nivel mundial. Es también, a su vez, la primera causa de mortalidad femenina y la principal causa de discapacidad permanente cerebral. Debido a la gravedad de la enfermedad, es importante concienciar a la población acerca de la misma informando qué lo produce y los métodos para prevenirlo.
 
 En este EDA, se ha utilizado un dataset encontrado en Kaggle llamado **Stroke Prediction Dataset**. Nuestro objetivo principal en este estudio es analizar los factores asociados a la ocurrencia de ictus e identificar variables que muestran una mayor relación con su aparición. 
@@ -51,7 +51,7 @@ Estilo de vida: **smoking_status** (estado de fumador), **ever_married** (casado
 
 	- ***stroke***, variable binaria: Hay un 95.13% de personas que no han sufrido ictus antes, y un 4,87% que sí (249 personas). Se empleó un diagrama de barras para ver las frecuencias absolutas y relativas, y un diagrama de tarta para el porcentaje absoluto.
 
-- Dentro de las variables numéricas:
+- Dentro de las **variables numéricas:**
 
 	- ***age***, variable numérica discreta: Las edades se comprenden entre los 0 y 82 años. Se empleó un histograma para ver el reparto de edades, con picos de edad entre los 45 y 60 años, así como entre los 78 y 82 años.
 
@@ -109,8 +109,8 @@ Como continuación de este análisis exploratorio, el proyecto podría ampliarse
 
 ## 10. Estructura del repositorio:
 
-**EDA_STROKE_PREDICTION/**
-
+```text
+EDA_STROKE_PREDICTION/
 │
 ├── src/
 │   ├── data/
@@ -132,6 +132,8 @@ Como continuación de este análisis exploratorio, el proyecto podría ampliarse
 ├── EDA Project Break.docx
 ├── Memoria.pdf
 └── Presentacion.pdf
+```
+
 
 ## 11. Autores:
 
