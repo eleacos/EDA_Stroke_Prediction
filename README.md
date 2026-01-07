@@ -137,11 +137,11 @@ EDA_STROKE_PREDICTION/
 
 ## 11. Autores:
 
-Elena Acosta Hernández
+Elena Acosta Hernández. https://github.com/eleacos  
 
-Eric Calvo Díaz
+Eric Calvo Díaz. https://github.com/ecalvo2411
 
-Brenda Oyola Arias
+Brenda Oyola Arias. https://github.com/Brendaluoyola
 
 
 
