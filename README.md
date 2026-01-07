@@ -11,7 +11,7 @@ En este EDA, se ha utilizado un dataset encontrado en Kaggle llamado **Stroke Pr
 - Detectar patrones relevantes en variables demográficas y clínicas.
 - Dar recomendaciones para prevenir la enfermedad.
 
-## 3. Description del dataset:
+## 3. Descripción del dataset:
 Fuente: Kaggle (Stroke Prediction Dataset- https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset/data)
 Número de observaciones: 5110
 Número de variables: 12
