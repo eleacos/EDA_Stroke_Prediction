@@ -137,11 +137,11 @@ EDA_STROKE_PREDICTION/
 
 ## 11. Autores:
 
-Elena Acosta
+Elena Acosta Hernández
 
-Eric Calvo
+Eric Calvo Díaz
 
-Brenda Oyola
+Brenda Oyola Arias
 
 
 
