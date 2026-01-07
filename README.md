@@ -1,4 +1,4 @@
-Stroke Prediction Dataset – Exploratory Data Analysis
+# Stroke Prediction Dataset – Exploratory Data Analysis
 
 ## 1. Description del proyecto:
 El ictus es una enfermedad cerebrovascular y es actualmente la segunda causa de mortalidad a nivel mundial. Es también, a su vez, la primera causa de mortalidad femenina y la principal causa de discapacidad permanente cerebral. Debido a la gravedad de la enfermedad, es importante concienciar a la población acerca de la misma informando qué lo produce y los métodos para prevenirlo.
@@ -37,29 +37,29 @@ Estilo de vida: **smoking_status** (estado de fumador), **ever_married** (casado
 
 ## 5. Exploratory Data Analysis (EDA)
 
-#### Análisis univariante:
+### Análisis univariante:
 
-	- Dentro de las **variables categóricas**
+- Dentro de las **variables categóricas**
 
-		- ***gender***, variable binaria: Un 58.61% de participantes son mujeres frente a un 41.39% que son hombres. Se empleó un diagrama de barras para ver las frecuencias absolutas y relativas, y un gráfico de tarta para el porcentaje absoluto.
+	- ***gender***, variable binaria: Un 58.61% de participantes son mujeres frente a un 41.39% que son hombres. Se empleó un diagrama de barras para ver las frecuencias absolutas y relativas, y un gráfico de tarta para el porcentaje absoluto.
 
-		- ***hypertension***, variable binaria: Un 9.75% de ellos tienen hipertensión, frente al 90.25% que no tienen hipertensión. Se empleó un diagrama de barras para ver las frecuencias absolutas y relativas, y un gráfico de tarta para el porcentaje absoluto.
+	- ***hypertension***, variable binaria: Un 9.75% de ellos tienen hipertensión, frente al 90.25% que no tienen hipertensión. Se empleó un diagrama de barras para ver las frecuencias absolutas y relativas, y un gráfico de tarta para el porcentaje absoluto.
 
-		- ***heart_disease***, variable binaria: De ellos, alrededor de un 5.4% presentan alguna enfermedad cardiaca, y hay un 94.6% que no presentan ninguna enfermedad cardiaca. Se utilizó un gráfico de tarta para obtener el porcentaje absoluto.
+	- ***heart_disease***, variable binaria: De ellos, alrededor de un 5.4% presentan alguna enfermedad cardiaca, y hay un 94.6% que no presentan ninguna enfermedad cardiaca. Se utilizó un gráfico de tarta para obtener el porcentaje absoluto.
 
-		- ***smoking_status***, variable categórica: Más del 35% de personas del estudio no fuman; hay aproximadamente un 18% de personas que fumaban antes; un 15% de ellos fumaban en el momento del estudio, y hay un 30% de personas de las que se desconoce si fuman, fumaban o no fumaban. Se empleó un diagrama de barras para ver las frecuencias absolutas y relativas.
+	- ***smoking_status***, variable categórica: Más del 35% de personas del estudio no fuman; hay aproximadamente un 18% de personas que fumaban antes; un 15% de ellos fumaban en el momento del estudio, y hay un 30% de personas de las que se desconoce si fuman, fumaban o no fumaban. Se empleó un diagrama de barras para ver las frecuencias absolutas y relativas.
 
-		- ***stroke***, variable binaria: Hay un 95.13% de personas que no han sufrido ictus antes, y un 4,87% que sí (249 personas). Se empleó un diagrama de barras para ver las frecuencias absolutas y relativas, y un diagrama de tarta para el porcentaje absoluto.
+	- ***stroke***, variable binaria: Hay un 95.13% de personas que no han sufrido ictus antes, y un 4,87% que sí (249 personas). Se empleó un diagrama de barras para ver las frecuencias absolutas y relativas, y un diagrama de tarta para el porcentaje absoluto.
 
-	- Dentro de las variables numéricas:
+- Dentro de las variables numéricas:
 
-		- ***age***, variable numérica discreta: Las edades se comprenden entre los 0 y 82 años. Se empleó un histograma para ver el reparto de edades, con picos de edad entre los 45 y 60 años, así como entre los 78 y 82 años.
+	- ***age***, variable numérica discreta: Las edades se comprenden entre los 0 y 82 años. Se empleó un histograma para ver el reparto de edades, con picos de edad entre los 45 y 60 años, así como entre los 78 y 82 años.
 
-		- ***avg_glucose_level***, variable numérica continua: Los niveles de glucosa son en su mayoría entre 50 y 150, que son valores normales. Se empleó un diagrama de violín para su visualización.
+	- ***avg_glucose_level***, variable numérica continua: Los niveles de glucosa son en su mayoría entre 50 y 150, que son valores normales. Se empleó un diagrama de violín para su visualización.
 
-		- ***bmi***, variable numérica discreta: Respecto a la edad, el índice de masa corporal aumenta entre los 0 y 30 años; es estable entre los 30 y 60 años y disminuye ligeramente entre los 60 y 82 años. Se empleó un gráfico de línea para visualizar el valor del “bmi” a lo largo del valor de edad.
+	- ***bmi***, variable numérica discreta: Respecto a la edad, el índice de masa corporal aumenta entre los 0 y 30 años; es estable entre los 30 y 60 años y disminuye ligeramente entre los 60 y 82 años. Se empleó un gráfico de línea para visualizar el valor del “bmi” a lo largo del valor de edad.
 
-#### Análisis bivariante: 
+### Análisis bivariante: 
 - La variable directora es ***“stroke”***, de tipo categórica binaria, en donde el valor *stroke* = 0 corresponde a la no ocurrencia de ictus, y el valor *stroke* = 1 corresponde con la ocurrencia de ictus.
 
    - ***age vs stroke***: se valora si la edad es un factor de riesgo para sufrir ictus. Para la visualización, se emplea un boxplot y un diagrama de violín, y se comprueba que los casos en los que se ha sufrido ictus se concentran en personas de mayor edad, a partir de los 60 años aproximadamente. Se concluye entonces que a mayor edad, hay mayor riesgo de sufrir ictus.
@@ -70,7 +70,7 @@ Estilo de vida: **smoking_status** (estado de fumador), **ever_married** (casado
 
    - **bmi vs stroke**: Se estudia si un valor alto de IMC corresponde con una mayor posibilidad a sufrir un ictus. Empleando un boxplot se visualiza que los valores son similares y no parece haber una relación directa. Por tanto, no se observa una asociación clara entre el IMC y la ocurrencia de ictus en este dataset.
 
-#### Análisis multivariante:
+### Análisis multivariante:
 - ***hypertension vs age vs stroke:*** Se analiza la relación entre tener hipertensión y la edad respecto a sufrir un ictus. Se emplea un boxplot en el que se observa que las personas de mayor edad, con o sin hipertensión, han sufrido un ictus. También se observa que las personas con hipertensión que han sufrido ictus son mayores que las personas que no tienen hipertensión y no han sufrido ictus. 
 
 - ***smoking_status vs heart_disease vs stroke:*** Se analiza la relación entre fumar, tener una cardiopatia y la posibilidad de sufrir un ictus. Se emplea un diagrama de calor y se observa que:
@@ -110,6 +110,7 @@ Como continuación de este análisis exploratorio, el proyecto podría ampliarse
 ## 10. Estructura del repositorio:
 
 **EDA_STROKE_PREDICTION/**
+
 │
 ├── src/
 │   ├── data/
@@ -135,7 +136,9 @@ Como continuación de este análisis exploratorio, el proyecto podría ampliarse
 ## 11. Autores:
 
 Elena Acosta
+
 Eric Calvo
+
 Brenda Oyola
 
 
