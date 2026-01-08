@@ -70,20 +70,20 @@ EDA_STROKE_PREDICTION/
 
 Desde una terminal (en bash), ejecutar los siguientes comandos:
 
-**1. Clonar el repositorio:**
+   **1. Clonar el repositorio:**
 
-**git clone** https://github.com/usuario/EDA_STROKE_PREDICTION.git
+   **git clone** https://github.com/usuario/EDA_STROKE_PREDICTION.git
 
-**2. Instalar las dependencias necesarias:**
+   **2. Instalar las dependencias necesarias:**
 
-**pip install** pandas numpy matplotlib seaborn
+   **pip install** pandas numpy matplotlib seaborn
 
-**3. Ejecutar el análisis:**
+   **3. Ejecutar el análisis:**
 
-Abrir los notebooks ubicados en la carpeta notebooks/ con Jupyter Notebook
+   - Abrir los notebooks ubicados en la carpeta notebooks/ con Jupyter Notebook
 
-Alternativamente, ejecutar el archivo principal:
-***notebook-main.ipynb***
+   - Alternativamente, ejecutar el archivo principal:
+   ***notebook-main.ipynb***
 
 ### 6. Principales conclusiones
 
