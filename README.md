@@ -2,7 +2,7 @@
 ## Stroke Prediction Dataset – Exploratory Data Analysis (EDA)
 ### 1. Descripción breve
 
-Este proyecto consiste en un análisis exploratorio de datos (EDA) aplicado al Stroke Prediction Dataset obtenido de [Kaggle](https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset/data/ "Stroke Prediction Dataset")
+Este proyecto consiste en un análisis exploratorio de datos (EDA) aplicado al Stroke Prediction Dataset obtenido de [Kaggle](https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset/data/ "Stroke Prediction Dataset").
 
 El ictus es una enfermedad cerebrovascular de gran impacto sanitario, siendo una de las principales causas de mortalidad y discapacidad a nivel mundial.
 
@@ -24,27 +24,26 @@ A lo largo del análisis se plantean las siguientes preguntas de investigación:
 
 **Lenguaje:** Python
 
-*Librerías:**
+**Librerías:**
 
-Pandas
+- Pandas
 
-NumPy
+- NumPy
 
-Matplotlib
+- Matplotlib
 
-Seaborn
+- Seaborn
 
 **Herramientas:**
 
-Jupyter Notebook
+- Jupyter Notebook
 
-Git / GitHub
+- Git / GitHub
 
 
 ## 4. Estructura del repositorio:
 
 ```
-text
 EDA_STROKE_PREDICTION/
 │
 ├── src/
