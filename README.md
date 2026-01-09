@@ -72,7 +72,7 @@ Desde una terminal (en bash), ejecutar los siguientes comandos:
 
    **1. Clonar el repositorio:**
 
-   **git clone** https://github.com/usuario/EDA_STROKE_PREDICTION.git
+   **git clone** https://github.com/eleacos/EDA_STROKE_PREDICTION.git
 
    **2. Instalar las dependencias necesarias:**
 
